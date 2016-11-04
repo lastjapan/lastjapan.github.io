@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ewen Spencer - Fabrica [Brighton, UK]"
+title:  "Ewen Spencer - Fabrica - [Brighton, UK]"
 time: 
 showdate:   "13/10/16"
 category: "shows"
