@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Half-Light - Cakeshop [Seoul, South Korea]"
+title:  "Half-Light - Cakeshop - [Seoul, South Korea]"
 time: 
 showdate:   "22/10/16"
 category: "shows"
