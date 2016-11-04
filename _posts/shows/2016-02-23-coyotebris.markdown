@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coyote Records - Crofters Rights [Bristol, UK]"
-time: "10PM-Late"
+time: 
 showdate:  "08/10/16"
 category: "shows"
 link: 
