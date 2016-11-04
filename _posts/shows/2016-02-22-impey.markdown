@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Midnight In Little Havana EP Launch - Alibi [London,UK]"
-time: "10PM-Late"
+time: 
 showdate:   "07/10/16"
 category: "shows"
 link:
