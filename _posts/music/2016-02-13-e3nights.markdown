@@ -2,7 +2,7 @@
 layout: post
 title:  "E3 Nights"
 type: "soundcloud"
-artworkImageUrl: https://i1.sndcdn.com/avatars-000275225414-net7uf-t500x500.jpg
+artworkImageUrl: https://i1.sndcdn.com/artworks-000193239800-6njmdt-t500x500.jpg
 link: https://soundcloud.com/lastjapan/e3nights
 category: "music"
 soundcloudLink: https://soundcloud.com/lastjapan/e3nights
