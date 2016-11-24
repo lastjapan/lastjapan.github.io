@@ -44,9 +44,12 @@ title: music
         <a class="f5 white" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
         <div>
           {{ item.soundcloudembed }}
-        </div>
+     </div>
         <div class="">
-          <a href="f5">sssip</a>
+          {% if item.soundcloudLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.soundCloudLink }}">SOUNDCLOUD</a>{% endif %}
+          {% if item.itunesLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.itunesLink }}">iTUNES</a>{% endif %}
+          {% if item.spotifyLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.spotifyLink }}">SPOTIFY</a>{% endif %}
+          {% if item.vinylLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.vinylLink }}">VINYL</a>{% endif %}
         </div>
       </div>
       <div>
@@ -68,9 +71,12 @@ title: music
         <a class="f5 white" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
         <div>
           {{ item.soundcloudembed }}
-        </div>
+      </div>
         <div class="">
-          <a href="f5">sssip</a>
+          {% if item.soundcloudLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.soundCloudLink }}">SOUNDCLOUD</a>{% endif %}
+          {% if item.itunesLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.itunesLink }}">iTUNES</a>{% endif %}
+          {% if item.spotifyLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.spotifyLink }}">SPOTIFY</a>{% endif %}
+          {% if item.vinylLink %}<a class="f6 white o-80 text-dec-none mr2" href="{{ item.vinylLink }}">VINYL</a>{% endif %}
         </div>
       </div>
       <div>
