@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Coyote Records & Friends for Crisis - [London,UK]"
+time: 22:00
+showdate:   "18/12/16"
+category: "shows"
+link:
+---
