@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Circadian Rhythms live on NTS Radio"
+title:  "CR - NTS Radio - www.nts.live"
 time: "8-10PM"
 showdate:   "16/02/17"
 category: "shows"
