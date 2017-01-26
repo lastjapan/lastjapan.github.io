@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CR - TBA - [PARIS]"
+title:  "CIRCADIAN RHYTHMS - TBA - [PARIS]"
 time: "10PM"
 showdate:   "11/03/17"
 category: "shows"
