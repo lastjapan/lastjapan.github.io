@@ -1,8 +1,0 @@
----
-layout: post
-title:  "CR - NTS Radio - www.nts.live"
-time: "8-10PM"
-showdate:   "19/01/17"
-category: "shows"
-link: "http://www.nts.live/shows/circadian-rhythms"
----
