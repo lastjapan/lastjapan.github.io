@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "TBA - TBA [Durham]"
+time: "8-10PM"
+showdate:   "16/03/16"
+category: "shows"
+link: "http://www.nts.live/shows/circadian-rhythms"
+---
