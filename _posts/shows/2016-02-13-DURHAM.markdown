@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TBA - TBA [Durham]"
+title:  "TBA - TBA - [Durham, UK]"
 time: "8-10PM"
 showdate:   "16/03/16"
 category: "shows"
