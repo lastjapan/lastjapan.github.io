@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TBA - TBA [London]"
+title:  "Grapefruit - The Alibi [London]"
 time: "10PM"
 showdate:   "16/02/16"
 category: "shows"
