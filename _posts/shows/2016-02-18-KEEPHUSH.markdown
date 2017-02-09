@@ -1,8 +1,0 @@
----
-layout: post
-title:  "TBA - TBA [LONDON, UK]"
-time: "9PM"
-showdate:   "08/02/17"
-category: "shows"
-link: ""
----
