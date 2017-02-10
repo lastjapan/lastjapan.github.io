@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "TBA - Birmingham [UK]"
+time: "10M"
+showdate:   "24/03/16"
+category: "shows"
+link: "www.lastjapan.com"
+---
