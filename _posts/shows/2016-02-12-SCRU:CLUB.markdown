@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TBA - Birmingham [UK]"
+title:  "Bluewave Takeover: Scru:Club - Birmingham [UK]"
 time: "10M"
 showdate:   "24/03/16"
 category: "shows"
