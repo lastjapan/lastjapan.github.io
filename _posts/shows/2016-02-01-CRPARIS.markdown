@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CIRCADIAN RHYTHMS - TBA - [PARIS]"
-time: "10PM"
+time: ""
 showdate:   "11/03/17"
 category: "shows"
 link: "http://www.nts.live/shows/circadian-rhythms"
