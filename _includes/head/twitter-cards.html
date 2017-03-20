@@ -1,24 +1,7 @@
 <!-- Twitter Cards  -->
-<meta name="twitter:card" content="summary">
-{% if site.twitterCards.username %}
-<meta name="twitter:site" content="@{{ site.twitterCards.username }}">
-<meta name="twitter:creator" content="@{{ site.twitterCards.username }}">
-{% endif %}
-{% if page.title %}
-<meta name="twitter:title" content="{{ page.title }}">
-{% else %}
-<meta name="twitter:title" content="{{ site.title }}">
-{% endif %}
-{% if page.url %}
-<meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-{% endif %}
-{% if page.description %}
-<meta name="twitter:description" content="{{ page.description }}">
-{% else %}
-<meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
-{% if page.twitterCardImage %}
-<meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.twitterCardImage }}">
-{% else %}
-<meta name="twitter:image:src" content="{{ site.url }}/assets/images/logo.png">
-{% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@cr_label">
+  <meta name="twitter:creator" content="@cr_label">
+  <meta name="twitter:title" content='CR001-A — TOASTY "METAL"'>
+  <meta name="twitter:description" content='A. METAL / B1. REBAR / B2. BUMP | 12” VINYL | ARTWORK: DYLAN TUSHAR'>
+<meta name="twitter:image" content="http://circadian-rhythms.com/assets/images/cr001/cr001-toasty-twittercard.png">
