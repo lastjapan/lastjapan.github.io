@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Chow Down x Coyote Records - Soup Kitchen - Manchester [UK]"
+time: ""
+showdate:   "28/03/16"
+category: "shows"
+link: "www.lastjapan.com"
+---
