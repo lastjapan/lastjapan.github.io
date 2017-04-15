@@ -2,7 +2,7 @@
 layout: post
 title:  "General Gyro’s Sound System Presents: Last Japan [Durham, UK] -- [SOLD OUT]"
 time: ""
-showdate:   "16/03/16"
+showdate:   "16/03/17"
 category: "shows"
 link: "http://www.nts.live/shows/circadian-rhythms"
 ---
