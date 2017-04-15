@@ -2,7 +2,7 @@
 layout: post
 title:  "Bluewave Takeover: Scru:Club - Birmingham [UK]"
 time: ""
-showdate:   "24/03/16"
+showdate:   "24/03/17"
 category: "shows"
 link: "www.lastjapan.com"
 ---
