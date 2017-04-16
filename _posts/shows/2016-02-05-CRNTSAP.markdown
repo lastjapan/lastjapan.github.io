@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CR - NTS Radio - www.nts.live"
+title:  "APR 13 THUR - NTS Radio - www.nts.live"
 time: "8-10PM"
 showdate:   "13/04/17"
 category: "shows"
