@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APR 28  FRI - Soup Kitchen - Manchester, UK"
+title:  "APR 28 - FRI - Soup Kitchen - Manchester, UK"
 time: ""
 showdate:   ""
 category: "shows"
