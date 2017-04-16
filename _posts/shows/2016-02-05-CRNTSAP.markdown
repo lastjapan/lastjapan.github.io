@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "APR 13 THUR - NTS Radio - www.nts.live"
-time: "8-10PM"
-showdate:   "13/04/17"
+time: ""
+showdate:   ""
 category: "shows"
 link: "http://www.nts.live/shows/circadian-rhythms"
 ---
