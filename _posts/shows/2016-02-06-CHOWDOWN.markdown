@@ -2,7 +2,7 @@
 layout: post
 title:  "APR 28  FRI - Soup Kitchen - Manchester, UK"
 time: ""
-showdate:   "28/04/17"
+showdate:   ""
 category: "shows"
 link: "www.lastjapan.com"
 ---
