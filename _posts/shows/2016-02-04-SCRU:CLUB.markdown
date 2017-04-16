@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bluewave Takeover: Scru:Club - Birmingham [UK]"
+title:  "MAR 24 FRI - Bluewave Takeover: Scru:Club - Birmingham, UK"
 time: ""
 showdate:   "24/03/17"
 category: "shows"
