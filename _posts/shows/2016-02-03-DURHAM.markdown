@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MAR  16 - FRI - General Gyro’s Sound System Presents: Last Japan - Durham, UK - [SOLD OUT]"
+title:  "MAR  16 - FRI - General Gyro’s Sound System Presents: Last Japan - Durham, UK"
 time: ""
 showdate:   ""
 category: "shows"
