@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MAR  11 -  SAT - LA SCENE (CIRCADIAN RHYTHMS) - PARIS, FRANCE"
+title:  "MAR  11 -  SAT — LA SCENE (CIRCADIAN RHYTHMS) - PARIS, FRANCE"
 time: ""
 showdate:   ""
 category: "shows"
