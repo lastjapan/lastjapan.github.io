@@ -1,0 +1,8 @@
+---
+layout: post
+title:  “AUG 04 - FRI — Coyote Records - Bristol, UK"
+time: ""
+showdate:   ""
+category: "shows"
+link: "www.lastjapan.com"
+—
