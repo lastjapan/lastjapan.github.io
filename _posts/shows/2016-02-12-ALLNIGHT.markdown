@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  “AUG 05 - SAT — Coyote presents: Last japan all night - London, UK"
+title:  "AUG 05 - SAT — COYOTE RECS PRESENTS: LAST JAPAN ALL NIGHT - LONDON, UK"
 time: ""
 showdate:   ""
 category: "shows"
 link: "www.lastjapan.com"
-—
+---
+
