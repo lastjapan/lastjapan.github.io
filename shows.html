@@ -3,15 +3,5 @@ layout: default
 title: Shows
 ---
 
-{% include contentHeader.html title=page.title %}
-
-{% for item in site.categories.shows %}
-<div class="mb3">
-  <div>
-    <a class="f4 white" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-  </div>
-  <div>
-    <span>{{ item.time }}  {{ item.showdate }}</span>
-  </div>
-</div>
-{% endfor %}
+<a href="http://www.songkick.com/artists/2677406" class="songkick-widget" data-theme="dark" data-track-button="on" data-detect-style="true" data-font-color="#FFFFFF" data-background-color="transparent">Tour Dates</a>
+<script src="//widget.songkick.com/widget.js"></script>
