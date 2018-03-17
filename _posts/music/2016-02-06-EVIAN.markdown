@@ -10,5 +10,5 @@ itunesLink:
 spotifyLink: 
 vinylLink: 
 soundcloudembed: <iframe width="369" height="190" src="https://www.youtube.com/embed/pPviiyHvk7A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-type: "soundtracks"
+type: "music"
 ---
