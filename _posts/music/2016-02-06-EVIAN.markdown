@@ -4,7 +4,7 @@ title:  "Evian x KENZO"
 type: "soundcloud"
 artworkImageUrl: https://i1.sndcdn.com/artworks-000092629903-tt6vtw-t500x500.jpg
 link: 
-category: "soundtracks"
+category: "music"
 soundcloudLink: 
 itunesLink: 
 spotifyLink: 
