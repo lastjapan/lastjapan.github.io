@@ -1,0 +1,8 @@
+body.luna {
+  background: #000 !important;
+}
+
+.luna-bg {
+  background-image: url('../images/luna-bg.png');
+  background-size: cover;
+}
