@@ -7,6 +7,7 @@
   -ms-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
+  overflow-x: visible;
 }
 
 .content-active {
@@ -31,4 +32,8 @@
 
 .text-dec-none {
   text-decoration: none;
+}
+
+.i-draggable {
+  position: relative;
 }

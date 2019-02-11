@@ -24,6 +24,7 @@
     "gulp-include": "^2.3.1",
     "gulp-postcss": "^6.1.1",
     "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.7.1",
     "gulp-shell": "^0.2.8",
     "gulp-size": "^2.1.0",
     "gulp-streamify": "^1.0.2",
