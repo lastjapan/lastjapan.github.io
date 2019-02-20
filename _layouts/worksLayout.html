@@ -25,11 +25,15 @@
           </li>
         </ul>
       </div>
+      {% include works/nav.html %}
     </div>
   </div>
 </div>
 <div class="container w-100">
-  <section class="z-4 {% unless page.noContentArea %}content-active{% endunless %} pt5 content w-100 absolute bottom-0 top-0 pa5 z-1">
-    {{ content }}
+  <section class="z-4 {% unless page.noContentArea %}content-active{% endunless %} content w-100 absolute bottom-0 top-0 z-1">
+    {% include works/production.html %}
+    {% include works/prod_by.html %}
+    {% include works/soundtracks.html %}
+    {% include works/fashion.html %}
   </section>
 </div>

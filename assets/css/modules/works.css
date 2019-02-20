@@ -1,0 +1,58 @@
+.works__outer {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.o-30 {
+  opacity: .3;
+}
+
+.o-100 {
+  opacity: 1;
+}
+
+.works-submenu .list {
+  margin: 0;
+  padding: 0;
+}
+
+.works-submenu .list a {
+  display: block;
+  position: relative;
+  opacity: .5;
+}
+
+.works-submenu .list a:hover {
+  opacity: 1;
+}
+
+.works-submenu .list a:after {
+    content: "►";
+    right: 0;
+    position: absolute;
+    opacity: .2;
+    transition: opacity .2s;
+}
+
+.works-submenu .list a:hover:after {
+    content: "►";
+    right: 0;
+    position: absolute;
+    opacity: .5;
+    transition: opacity .2s;
+}
+
+.works-submenu li {
+  border-bottom: 1px solid #888;
+  padding: 10px 0;
+}
+
+.works-submenu li:first-child {
+  border-top: 1px solid #888;
+}
+
+.works-submenu li a:link,
+.works-submenu li a:visited {
+  text-decoration: none;
+  color: black;
+}

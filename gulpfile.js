@@ -90,7 +90,7 @@ gulp.task('build:styles', function() {
       atImport(),
       customMedia(),
       cssvariables(),
-      at2x(),
+      at2x()
   ];
   gulp.src(appCssFilesGlob)
     .pipe(postcss(processors))
