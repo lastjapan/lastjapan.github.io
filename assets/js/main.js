@@ -27,16 +27,19 @@ break;case U[1]-1:T+=" ui-datepicker-group-last",I=" ui-corner-"+(Y?"left":"righ
 },{}],3:[function(require,module,exports){
 // Define Dependencies
 var detect = require('./lib/detect');
+// var waypoints = require('./lib/jquery.waypoints');
 var draggable = require('./modules/draggable');
+var ljwaypoints = require('./modules/ljwaypoints');
 
 // // Detect if JavaScript is enabled
 detect();
 draggable();
+ljwaypoints();
 //
 // // Print success message to console
 // console.log('<head> scripts loaded.')
 
-},{"./lib/detect":1,"./modules/draggable":4}],4:[function(require,module,exports){
+},{"./lib/detect":1,"./modules/draggable":4,"./modules/ljwaypoints":5}],4:[function(require,module,exports){
 module.exports = function () {
   require('./../lib/jquery-ui');
 
@@ -48,4 +51,27 @@ module.exports = function () {
   });
 }
 
-},{"./../lib/jquery-ui":2}]},{},[3]);
+},{"./../lib/jquery-ui":2}],5:[function(require,module,exports){
+module.exports = function() {
+
+  $(document).ready(function($) {
+
+    var obj = function(el) {
+      return document.getElementById(el).getBoundingClientRect().top;
+    }
+
+    var locFashion = obj("fashion");
+    var locProd = obj("production");
+    var locProdBy = obj("prodBy");
+    var locSoundtracks = obj("soundtracks");
+
+    console.log(locFashion);
+    console.log(locProd);
+    console.log(locProdBy);
+    console.log(locSoundtracks);
+
+  });
+
+}
+
+},{}]},{},[3]);
