@@ -11,9 +11,18 @@
   opacity: 1;
 }
 
+#i-worksMenu a {
+  display: block;
+}
+
+.works-submenu {
+  vertical-align: top;
+}
+
 .works-submenu .list {
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
 
 .works-submenu .list a {
@@ -56,4 +65,8 @@
 .works-submenu li a:visited {
   text-decoration: none;
   color: black;
+}
+
+.works__displayarea ol {
+  padding-left: 10px;
 }

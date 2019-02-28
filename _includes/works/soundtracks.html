@@ -1,14 +1,7 @@
-<div class="works__outer pt4" id="soundtracks">
-  <div class="container pt4 mt3">
-    <div class="works-submenu submenu--prodby w-25">
-      <ul class="list uppercase w-30">
-        <li>
-          <a href="" id="works-soundtracks-COY013" data-open-category="COY013">Evian &amp; Kenzo</a>
-        </li>
-        <li>
-          <a href="" id="works-soundtracks-RELOAD" data-open-category="RELOAD">Nokia</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+{% for item in site.categories.works reversed %}
+  {% if item.type == 'soundtracks' %}
+    <li>
+      <a href="{{ item.url }}" id="works-soundtracks-{{ item.dataid }}" data-opens="{{ item.dataid }}">{{ item.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}

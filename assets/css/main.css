@@ -5421,6 +5421,18 @@ html {
 }
 
 
+.menu {
+  font-size: 12px;
+}
+
+
+@media screen and (min-width: 40em) {
+  .menu {
+    font-size: 14px;
+  }
+}
+
+
 .bgDark {
   display: block;
   width: 100%;
@@ -5466,9 +5478,20 @@ body.luna {
 }
 
 
+#i-worksMenu a {
+  display: block;
+}
+
+
+.works-submenu {
+  vertical-align: top;
+}
+
+
 .works-submenu .list {
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
 
 
@@ -5517,4 +5540,9 @@ body.luna {
 .works-submenu li a:visited {
   text-decoration: none;
   color: black;
+}
+
+
+.works__displayarea ol {
+  padding-left: 10px;
 }

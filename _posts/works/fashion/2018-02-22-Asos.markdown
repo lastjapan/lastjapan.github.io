@@ -1,0 +1,14 @@
+---
+layout: detail
+title:  "Nokia"
+longTitle: "Nokia Lumia 820"
+dataid: "nokia"
+link:
+category: "works"
+soundcloudLink:
+itunesLink:
+spotifyLink:
+vinylLink:
+soundcloudembed:
+type: "soundtracks"
+---
