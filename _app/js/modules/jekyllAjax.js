@@ -12,9 +12,7 @@ jQuery(document).ready(function($) {
         var State = History.getState();
         console.log(State);
         $.get(State.url, function(data){
-          if (State.hash == '/') {
-            $('.content').removeClass('content-active');
-          } else {
+          {
             document.title = $(data).find("title").text();
             var d = $(data).filter('.container');
             $('.container').empty()

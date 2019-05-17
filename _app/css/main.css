@@ -1,8 +1,11 @@
 @import 'tachyons/tachyons.css';
+@import 'lib/fotorama.css';
 @import 'modules/fonts.css';
 @import 'modules/background.css';
 @import 'modules/page.css';
+@import 'modules/cart.css';
 @import 'modules/menu.css';
+@import 'modules/shop.css';
 @import 'modules/bgDark.css';
 @import 'modules/luna.css';
 @import 'modules/works.css';

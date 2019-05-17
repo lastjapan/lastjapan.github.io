@@ -8,7 +8,7 @@
 
 <div class="w-100 w-25-l">
   <div class="h-100 pa4 fl">
-    <div class="h-100 menu pa4 absolute fixed-l left-0 bottom-0 top-0 z-5-l">
+    <div class="h-100 menu pa4 absolute fixed-l left-0 bottom-0 top-0 z-5">
       <div class=" dib w-33 w-100-l">
         <ul class="list pa4 pa4-l pl0">
           <li class="mb2">
@@ -17,9 +17,9 @@
           <li class="mb2">
             <a class="{% if current[1] == 'profile' %}active{% endif %} black caps" href="/profile">Profile</a>
           </li>
-          <li class="mb2">
+          <!-- <li class="mb2">
             <a class="{% if current[1] == 'works' %}active{% endif %} white caps" href="/works">Works</a>
-          </li>
+          </li> -->
           <li class="mb2">
             <a class="{% if current[1] == 'shop' %}active{% endif %} white caps" href="/shop">Shop</a>
           </li>
@@ -30,7 +30,7 @@
   </div>
 </div>
 <div class="container w-100">
-  <section class="works__container dib z-4 {% unless page.noContentArea %}content-active{% endunless %} content w-100 absolute bottom-0 top-0 z-1 pa5 pt4 pb0">
+  <section class="works__container dib z-2 {% unless page.noContentArea %}content-active{% endunless %} content w-100 absolute bottom-0 top-0 z-1 pa5 pt4 pb0">
 
     <div class="works__outer" id="production">
       <div class="container pa5 pt4-l mt3 pb0">

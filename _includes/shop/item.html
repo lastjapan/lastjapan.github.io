@@ -1,0 +1,70 @@
+{% if include.colour == 'black' %}
+  {% assign textColour = 'white' %}
+{% else %}
+  {% assign textColour = 'black' %}
+{% endif %}
+
+{% if include.record == "true"  %}
+  {% assign width = '1000' %}
+  {% assign height = '1500' %}
+{% else %}
+  {% assign width = '1000' %}
+  {% assign height = '1500' %}
+{% endif %}
+
+{% if include.digital == "true"  %}
+  {% assign width = '1000' %}
+  {% assign height = '1000' %}
+{% endif %}
+
+<div id='item-{{include.id}}' class="collectionItem w-100 w-50-m w-25-ns pt3 pr2 pl2 fl-ns" {% if include.digital == "true" %} data-digital
+{% endif %}>
+  <div class="w-100">
+
+  </div>
+
+  <div class="w-100 relative">
+    {% if include.record == "true" %}
+      <div class="record recordWrap"></div>
+      {% else  %}
+      <div class="fotorama center no-repeat" style="background-size: 40px; background-image: url('/assets/images/loading2.gif');"
+        data-auto="false"
+        data-width="{{width}}"
+        data-height="{{height}}"
+        data-minwidth="100%"
+        data-maxwidth="100%"
+        data-minheight="100%"
+        data-maxheight="100%"
+        data-transition="crossfade"
+        data-loop="true"
+        nav="false"
+      >
+      </div>
+    {% endif %}
+
+    {% if include.record != "true" %}
+      <div class="top-1 right-1 thumbnails absolute">
+</div>
+      <a class="pa3 pr2 btn-arrow btn-next absolute top-50 right-1 ml4" data-productID="{{include.id}}">
+        <img class="db ma0" src="/assets/images/arrow-right-white.svg" />
+      </a>
+      <a class="pa3 pl2 btn-arrow btn-arrow-inactive btn-prev absolute top-50 left-1 mr4" data-productID="{{include.id}}">
+        <img class="db ma0" src="/assets/images/arrow-left-white.svg" />
+      </a>
+    {% endif %}
+  </div>
+  <div class="pa3 pr0 pl0 w-100 bg-white black fl relative">
+    <div class="itemInfo">
+      <h3 class="itemTitle  mt0 mb1 text ttu w-60-ns dib" ></h3>
+      <div class="buyContainer dib tr w-33-ns">
+        <a id="{{ include.id }}" data-id="{{ include.id }}" class="buy-button db">Buy</a>
+      </div>
+    </div>
+    <div class="itemPrice o-60"></div>
+    {% if include.record != "true"  %}
+      <div class="o-60 oneSize">ONE SIZE  </div>
+    {% endif %}
+
+    <div class="itemDescription mt2 mb2 smallcaps o-70" style="height: 80px;"></div>
+  </div>
+</div>

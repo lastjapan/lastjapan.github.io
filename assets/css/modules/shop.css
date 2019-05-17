@@ -1,0 +1,101 @@
+.itemDescription {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  font-size: 12px;
+}
+
+img.fotorama__img {
+  height: auto!important;
+  width: 100%!important;
+  top: 0!important;
+  left: 0!important;
+}
+
+.recordWrap {
+ max-width: 100%;
+}
+
+.fotorama__stage {
+  max-width: 100%;
+}
+
+h3.itemTitle {
+  font-weight: lighter;
+}
+
+.buyContainer {
+  top: 0;
+  position: absolute;
+  right: 0;
+  z-index: 5;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .fotorama__stage {
+    max-height: 250px!important;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .fotorama__stage, .cr2019 .fotorama__wrap, .cr2019 .recordWrap {
+    max-height: none!important;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .digitalWrap {
+    max-width: 100%;
+  }
+  .fotorama__stage, .cr2019 .fotorama__wrap, .cr2019 .recordWrap {
+    max-height: 520px!important;
+  }
+}
+
+@media screen and (min-width: 870px) {
+  .fotorama__stage, .cr2019 .fotorama__wrap, .cr2019 .recordWrap {
+    max-height: 560px!important;
+  }
+
+  #preloadImg {
+    position: fixed;
+    background-position: right;
+    background-attachment: fixed;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .fotorama__stage, .cr2019 .fotorama__wrap, .cr2019 .recordWrap {
+    max-height: 580px!important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .fotorama__stage, .cr2019 .fotorama__wrap, .cr2019 .recordWrap {
+    max-height: 320px!important;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .fotorama__stage, .cr2019 .fotorama__wrap, .cr2019 .recordWrap {
+    max-height: 350px!important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .fotorama__stage, .cr2019 .fotorama__wrap, .cr2019 .recordWrap {
+    max-height: 380px!important;
+  }
+  .body__outer--main {
+    background-size: 110%;
+    background-position: center;
+  }
+  .collectionItem[data-digital] {
+    max-height: 410px;
+  }
+}

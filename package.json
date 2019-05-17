@@ -12,7 +12,7 @@
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "browser-sync": "^2.14.0",
-    "browserify": "^13.1.0",
+    "browserify": "^14.0.0",
     "css": "^2.1.0",
     "css-parse": "^2.0.0",
     "cssnano": "^3.7.4",
@@ -39,7 +39,7 @@
     "postcss-custom-media": "^5.0.1",
     "postcss-import": "^8.1.2",
     "run-sequence": "^1.2.2",
-    "vinyl-source-stream": "^1.1.0",
+    "vinyl-source-stream": "^2.0.0",
     "vinyl-transform": "^1.0.0"
   },
   "dependencies": {

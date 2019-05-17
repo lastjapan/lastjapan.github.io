@@ -52,12 +52,10 @@
 }
 
 .works-submenu li {
-  border-bottom: 1px solid #888;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .works-submenu li:first-child {
-  border-top: 1px solid #888;
 }
 
 .works-submenu li a:link,

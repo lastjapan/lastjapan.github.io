@@ -8,8 +8,8 @@
 
 <div class="w-100 w-25-l">
   <div class="h-100-l w-100 pa4 fl">
-    <div class="h-100-l w-100 menu pa4 absolute left-0 bottom-0 top-0">
-      <div class=" dib">
+    <div class="h-100-l w-100 w-10-l menu pa4 absolute left-0 bottom-0 top-0">
+      <div class="dib relative z-5">
         <ul class="list pa4-l pl0">
           <li class="mb2">
             <a class="{% if current[1] == 'home' %}active{% endif %} black caps" href="/">Index</a>
@@ -32,8 +32,7 @@
 <div class="dib z-4 content-active content w-100 absolute bottom-0 top-0 z-1 works__displayarea w-100 dib content pa4 pa5-l pt3-l pb0-l">
   <div class="container pt3-l pl0">
 
-    <div class="works__content-area w-100 db w-50-l dib-l fixed-l right-0-l top-0-l mt2-l pt5-l pb5 mt3 mt0-l pb0-l" data-id="{{ page.dataid }}">
-      <p class="f5 mb0 o-30 mt0">{{ page.title }}</p>
+    <div class="works__content-area w-100 db w-50-l dib-l fixed-l right-0-l top-0-l mt3-l pt5-l pb5 mt3 pb0-l" data-id="{{ page.dataid }}">
       <p class="f4 mt0 pt0">{{ page.longTitle }}</p>
       <p>{{ content }}</p>
     </div>
