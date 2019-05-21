@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: shopDefault
 title: 'Shop'
 url:
 ---
@@ -24,14 +24,14 @@ url:
 }
 </style>
 
-<div class="shade-0 body__outer--main content shop-content z-1 cr2019 page ">
+<div class="shade-0 body__outer--main content shop-content z-1 cr2019 page pb5">
 
   <div class="shop__outer h-auto w-100 relative cb w-95 mx-auto">
     <div class="overflow-hidden mx-auto">
 
       <div class="overflow-hidden">
         <div class="pt3 pb0 w-100 pl2">
-          <span class="categoryTitle">DIGITAL</span>
+          <span class="categoryTitle b">DIGITAL</span>
         </div>
         {% include shop/item.html colour='black' id='1600906690604' digital='true' record='true' %}
         {% include shop/item.html colour='black' id='869738151980' digital='true' record='true' %}
@@ -45,18 +45,23 @@ url:
 
       <div class="overflow-hidden">
         <div class="pt4 pt5-ns pb0 w-100 pl2">
-          <span class="categoryTitle">PHYSICAL</span>
+          <span class="categoryTitle b">PHYSICAL</span>
         </div>
-        {% include shop/item.html colour='black' id='88798167066' record='true' %}
+        {% include shop/item.html colour='black' id='88798167066' physical='true' %}
+        {% include shop/item.html colour='black' id='1820490367020' physical='true' %}
+        {% include shop/item.html colour='black' id='1820492726316' physical='true' %}
+        {% include shop/item.html colour='black' id='1820501770284' physical='true' %}
+        {% include shop/item.html colour='black' id='1820510945324' physical='true' %}
+        {% include shop/item.html colour='black' id='1820510355500' physical='true' %}
       </div>
 
       <div class="overflow-hidden">
         <div class="pt4 pt5-ns pb0 w-100 pl2">
-          <span class="categoryTitle">MERCH</span>
+          <span class="categoryTitle b">MERCH</span>
         </div>
-        {% include shop/item.html colour='black' id='1700114333740' %}
-        {% include shop/item.html colour='black' id='1699957407788' %}
-        {% include shop/item.html colour='black' id='1814210183212' %}
+        {% include shop/item.html colour='black' id='1700114333740' merch='true' %}
+        {% include shop/item.html colour='black' id='1699957407788' merch='true' %}
+        {% include shop/item.html colour='black' id='1814210183212' merch='true' %}
       </div>
     </div>
   </div>

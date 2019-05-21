@@ -21,7 +21,55 @@ img.fotorama__img {
 
 h3.itemTitle {
   font-weight: lighter;
+  max-width:50%;
+  font-size: 14px;
 }
+
+.collectionItem {
+  max-height: 500px;
+}
+
+@media screen and (max-width: 500px) {
+  .collectionItem[data-physical] .fotorama__stage {
+      max-height: 280px!important;
+  }
+  .collectionItem[data-digital] {
+    max-height: 340px;
+  }
+  .collectionItem[data-merch] .fotorama__stage {
+    max-height: 210px!important;
+  }
+}
+
+@media screen (min-width: 500px) and (max-width: 640px) {
+  .collectionItem[data-merch] {
+    max-height: 700px;
+  }
+  .collectionItem[data-merch] .fotorama__stage {
+    max-height: 400px!important;
+  }
+  .collectionItem[data-digital]  {
+    max-height: 405px;
+  }
+  .collectionItem[data-physical] .fotorama__stage {
+      max-height: 450px!important;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .collectionItem[data-merch] {
+    max-height: 600px;
+  }
+}
+
+.fotorama__stage {
+  max-height: 600px;
+}
+
+/*
+.collectionItem[data-digital] {
+  max-height: 400px;
+} */
 
 .buyContainer {
   top: 0;
@@ -30,9 +78,13 @@ h3.itemTitle {
   z-index: 5;
   background: black;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin-top: 15px;
+  font-size: 12px;
   text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -97,5 +149,8 @@ h3.itemTitle {
   }
   .collectionItem[data-digital] {
     max-height: 410px;
+  }
+  .collectionItem[data-physical] {
+    max-height: 600px;
   }
 }

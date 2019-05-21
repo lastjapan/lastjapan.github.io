@@ -23,9 +23,17 @@
     top: 0;
     padding-left: 25%;
   }
-  .shop-content {
-    padding-left: 0;
+  .content.shop-content {
+    padding-left: 10%;
   }
+  .content.profile-content {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+.b {
+  -webkit-font-smoothing: antialiased;
 }
 
 .back img {
