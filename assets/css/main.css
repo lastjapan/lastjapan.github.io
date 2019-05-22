@@ -5673,8 +5673,43 @@ img { max-width: 100%; }
 }
 
 
+@font-face {
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro-Regular.eot'),
+  url('../fonts/DINPro-Regular.woff') format('woff'),
+  url('../fonts/DINPro-Regular.svg#DINPro-Regular') format('svg');
+  font-weight: 200;
+}
+
+
+@font-face {
+  font-family: 'DrukWide';
+  src: url('../fonts/DrukWide-Bold.eot');
+  src: url('../fonts/DrukWide-Bold.woff2') format('woff2'),
+       url('../fonts/DrukWide-Bold.woff') format('woff'),
+       url('../fonts/DrukWide-Bold.ttf') format('truetype'),
+       url('../fonts/DrukWide-Bold.svg#DrukWide-Book') format('svg'),
+       url('../fonts/DrukWide-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'TCondensed';
+  src: url('Fonts/TeXGyreHeros-Regular.eot');
+  src: url('Fonts/TeXGyreHeros-Regular.woff2') format('woff2'),
+       url('Fonts/TeXGyreHeros-Regular.woff') format('woff'),
+       url('Fonts/TeXGyreHeros-Regular.ttf') format('truetype'),
+       url('Fonts/TeXGyreHeros-Regular.svg#PilatWide-Book') format('svg'),
+       url('Fonts/TeXGyreHeros-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body, html {
-  font-family: 'Oswald';
+  font-family: 'DINPro';
   font-weight: 100;
   font-size: 15px;
   line-height: 26px;
@@ -5684,6 +5719,12 @@ body, html {
 .f1, .f2, .f3, .f4, .f5 {
   font-weight: 100;
   text-transform: uppercase;
+}
+
+
+.druk {
+  font-family: 'DrukWide', sans-serif;
+  font-weight: bold;
 }
 
 
@@ -6076,6 +6117,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+.itemTitle {
+  font-size: 16px;
+}
+
+
 img.fotorama__img {
   height: auto!important;
   width: 100%!important;
@@ -6164,9 +6210,11 @@ h3.itemTitle {
   margin-top: 15px;
   font-size: 12px;
   text-align: center;
-  &:hover {
-    cursor: pointer;
-  }
+}
+
+
+.buyContainer:hover {
+  cursor: pointer;
 }
 
 
@@ -6238,7 +6286,7 @@ h3.itemTitle {
     background-position: center;
   }
   .collectionItem[data-digital] {
-    max-height: 410px;
+    max-height: 520px;
   }
   .collectionItem[data-physical] {
     max-height: 600px;

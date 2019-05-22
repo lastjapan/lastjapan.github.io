@@ -4,6 +4,10 @@
   font-size: 12px;
 }
 
+.itemTitle {
+  font-size: 16px;
+}
+
 img.fotorama__img {
   height: auto!important;
   width: 100%!important;
@@ -80,9 +84,10 @@ h3.itemTitle {
   margin-top: 15px;
   font-size: 12px;
   text-align: center;
-  &:hover {
-    cursor: pointer;
-  }
+}
+
+.buyContainer:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 450px) {
@@ -150,7 +155,7 @@ h3.itemTitle {
     background-position: center;
   }
   .collectionItem[data-digital] {
-    max-height: 410px;
+    max-height: 520px;
   }
   .collectionItem[data-physical] {
     max-height: 600px;
