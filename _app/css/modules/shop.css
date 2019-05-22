@@ -2,6 +2,7 @@
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   font-size: 12px;
+  line-height: 1.2;
 }
 
 .itemTitle {
@@ -26,6 +27,7 @@ h3.itemTitle {
   font-weight: lighter;
   max-width:50%;
   font-size: 14px;
+  line-height: 1.2;
 }
 
 .collectionItem {
@@ -155,6 +157,7 @@ h3.itemTitle {
     background-position: center;
   }
   .collectionItem[data-digital] {
+    min-height: 510px;
     max-height: 520px;
   }
   .collectionItem[data-physical] {
