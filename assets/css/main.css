@@ -6271,6 +6271,12 @@ h3.itemTitle {
   .collectionItem[data-merch] .fotorama__stage {
     max-height: 200px!important;
   }
+
+  .buyContainer {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
 }
 
 
