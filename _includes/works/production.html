@@ -1,0 +1,7 @@
+{% for item in site.categories.works reversed %}
+  {% if item.type == 'production' %}
+    <li>
+      <a href="{{ item.url }}" id="works-production-{{ item.dataid }}" data-opens="{{ item.dataid }}">{{ item.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}

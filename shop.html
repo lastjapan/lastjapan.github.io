@@ -1,0 +1,78 @@
+---
+layout: shopDefault
+title: 'Shop'
+url:
+---
+
+<style>
+.shopSC {
+  top: 250px;
+  width: 250px;
+  right: 10px;
+  z-index: 15;
+  position: fixed;
+-webkit-transform-origin: 100% 50%;
+   -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+     -o-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+-webkit-transform: rotate(90deg) translate(50%, 50%);
+   -moz-transform: rotate(90deg) translate(50%, 50%);
+    -ms-transform: rotate(90deg) translate(50%, 50%);
+     -o-transform: rotate(90deg) translate(50%, 50%);
+        transform: rotate(90deg) translate(50%, 50%)
+}
+</style>
+
+<div class="shade-0 body__outer--main content shop-content z-1 cr2019 page pb5">
+
+  <div class="shop__outer h-auto w-100 relative cb w-95 mx-auto">
+    <div class="overflow-hidden mx-auto">
+
+      <div class="overflow-hidden">
+        <div class="pt3 pb0 w-100 pl2">
+          <span class="categoryTitle b druk">DIGITAL</span>
+        </div>
+        {% include shop/item.html colour='black' id='1600906690604' digital='true' record='true' %}
+        {% include shop/item.html colour='black' id='869738151980' digital='true' record='true' %}
+        {% include shop/item.html colour='black' id='1577054470188' digital='true' record='true' %}
+        {% include shop/item.html colour='black' id='1600911474732' digital='true' record='true' %}
+        {% include shop/item.html colour='black' id='1600901120044' digital='true' record='true' %}
+        {% include shop/item.html colour='black' id='1600914980908' digital='true' record='true' %}
+        {% include shop/item.html colour='black' id='1600987168812' digital='true' record='true' %}
+        {% include shop/item.html colour='black' id='1600997031980' digital='true' record='true' %}
+      </div>
+
+      <div class="overflow-hidden">
+        <div class="pt4 pt5-ns pb0 w-100 pl2">
+          <span class="categoryTitle b druk">PHYSICAL</span>
+        </div>
+        {% include shop/item.html colour='black' id='88798167066' physical='true' %}
+        {% include shop/item.html colour='black' id='1820490367020' physical='true' %}
+        {% include shop/item.html colour='black' id='1820492726316' physical='true' %}
+        {% include shop/item.html colour='black' id='1820501770284' physical='true' %}
+        {% include shop/item.html colour='black' id='1820510945324' physical='true' %}
+        {% include shop/item.html colour='black' id='1820510355500' physical='true' %}
+      </div>
+
+      <div class="overflow-hidden">
+        <div class="pt4 pt5-ns pb0 w-100 pl2">
+          <span class="categoryTitle b druk">MERCH</span>
+        </div>
+        {% include shop/item.html colour='black' id='1814210183212' merch='true' %}
+        {% include shop/item.html colour='black' id='1699957407788' merch='true' %}
+        {% include shop/item.html colour='black' id='1700114333740' merch='true' %}
+      </div>
+    </div>
+  </div>
+</div>
+{% include shop/top_right_menu.html %}
+{% include shop/cart.html %}
+
+<script>
+  $(document).ready(function() {
+    $('body').addClass('shade-9');
+    $('.btn-cart').removeClass('white').addClass('black');
+    $('.cr2019').addClass('store');
+  });
+</script>

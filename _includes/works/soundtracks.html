@@ -1,0 +1,7 @@
+{% for item in site.categories.works reversed %}
+  {% if item.type == 'soundtracks' %}
+    <li>
+      <a href="{{ item.url }}" id="works-soundtracks-{{ item.dataid }}" data-opens="{{ item.dataid }}">{{ item.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}

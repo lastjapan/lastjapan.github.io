@@ -90,7 +90,7 @@ gulp.task('build:styles', function() {
       atImport(),
       customMedia(),
       cssvariables(),
-      at2x(),
+      at2x()
   ];
   gulp.src(appCssFilesGlob)
     .pipe(postcss(processors))
@@ -162,6 +162,13 @@ recommends doing by setting up special watch tasks.*/
 // Static Server + watching files
 // WARNING: passing anything besides hard-coded literal paths with globs doesn't
 //          seem to work with the gulp.watch()
+
+gulp.task('servin', () => {
+  gulp.watch('_app/css/**/*.css', ['build:styles']);
+  gulp.watch('_app/js/**/*.js', ['build:scripts']);
+  gulp.watch(['_app/images/**/*'], ['build:images']);
+});
+
 gulp.task('serve', ['build'], function() {
 
   debug({path: appJsFilesGlob })
