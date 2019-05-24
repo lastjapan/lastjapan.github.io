@@ -18,7 +18,7 @@ img.fotorama__img {
 }
 
 .collectionItem[data-merch] .fotorama__stage {
-    max-height: 320px!important;
+    max-height: 200px!important;
 }
 
 .collectionItem[data-physical] .fotorama__stage {
@@ -54,14 +54,31 @@ h3.itemTitle {
 .buyInfo { vertical-align: top; height: 30px; margin-bottom: 20px;}
 
 @media screen and (max-width: 500px) {
+
+
+}
+
+@media screen and (min-width: 375px) {
+  .collectionItem[data-digital] {
+    max-height: 240px;
+  }
+  .collectionItem[data-merch] .fotorama__stage {
+    max-height: 200px!important;
+  }
   .collectionItem[data-physical] .fotorama__stage {
       max-height: 310px!important;
   }
+}
+
+@media screen and (min-width: 420px) {
   .collectionItem[data-digital] {
     max-height: 390px;
   }
   .collectionItem[data-merch] .fotorama__stage {
-    max-height: 290px!important;
+    max-height: 230px!important;
+  }
+  .collectionItem[data-physical] .fotorama__stage {
+      max-height: 290px!important;
   }
 }
 
@@ -233,21 +250,21 @@ h3.itemTitle {
   }
 
   .collectionItem[data-physical] {
-    max-height: 660px;
+    max-height: 660px!important;
   }
 
   .collectionItem[data-digital] {
-    max-height: 460px;
+    max-height: 460px!important;
     min-height: auto;
   }
 
   .collectionItem[data-merch] {
-    max-height: 620px;
+    max-height: 620p!important;
     min-height: auto;
   }
 
   .collectionItem[data-digital] {
-    max-height: 460px;
+    max-height: 460px!important;
     min-height: auto;
   }
 
