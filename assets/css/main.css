@@ -5774,6 +5774,12 @@ html {
 }
 
 
+.content a:link, .content a:visited {
+  color: #111;
+  text-decoration: underline;
+}
+
+
 @media (min-width: 48em) {
   .content-active {
     left: 0%;
