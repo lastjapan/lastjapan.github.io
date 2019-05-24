@@ -59,18 +59,18 @@
   </div>
   <div class="pa3 pr0 pl0 w-100 bg-white black fl relative">
     <div class="itemInfo">
-      <h3 class="itemTitle mt0 mb1 text ttu dib druk" ></h3>
+      <h3 class="itemTitle  mt0 mb1 text ttu dib druk" ></h3>
     </div>
-    <div class="buyInfo db w-100">
-      <div class="itemPrice dib fl o-60 w-50"></div>
-      <div class="buyContainer dib tr fl w-50">
+    <div class="buyInfo">
+      <div class="buyContainer dib tr w-33-ns">
         <a id="{{ include.id }}" data-id="{{ include.id }}" class="buy-button db">Buy</a>
       </div>
+      <div class="itemPrice o-60"></div>
     </div>
     {% if include.record != "true"  %}
-      <div class="db o-60 oneSize">ONE SIZE  </div>
+      <div class="o-60 oneSize">ONE SIZE  </div>
     {% endif %}
 
-    <div class="itemDescription mt2 mb2 smallcaps o-70 w-100" style="height: 80px;"></div>
+    <div class="itemDescription mt2 mb2 smallcaps o-70" style="height: 80px;"></div>
   </div>
 </div>
