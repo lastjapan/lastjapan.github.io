@@ -3,12 +3,12 @@
 }
 
 .buyContainer a {
-  padding: 5px;
+  padding: 10px;
   background: #111;
   color: white;
   cursor: pointer;
   text-align: center;
-  font-size: 10px;
+  font-size: 1px;
 }
 
 .itemPrice {
