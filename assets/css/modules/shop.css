@@ -47,6 +47,10 @@ h3.itemTitle {
   max-height: 500px;
 }
 
+.collectionItem[data-physical] {
+  max-height: 580px!important;
+}
+
 .oneSize {
   font-size: 10px;
 }
@@ -55,24 +59,27 @@ h3.itemTitle {
 
 @media screen and (max-width: 500px) {
 
+  .fotorama__stage__shaft {
+    width: 100%!important;
+  }
 
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 400px) {
   .collectionItem[data-digital] {
-    max-height: 240px;
+    max-height: 540px;
   }
   .collectionItem[data-merch] .fotorama__stage {
-    max-height: 200px!important;
+    max-height: 460px!important;
   }
   .collectionItem[data-physical] .fotorama__stage {
-      max-height: 310px!important;
+      max-height: 500px!important;
   }
 }
 
 @media screen and (min-width: 420px) {
   .collectionItem[data-digital] {
-    max-height: 390px;
+    max-height: 440px;
   }
   .collectionItem[data-merch] .fotorama__stage {
     max-height: 230px!important;
@@ -140,14 +147,14 @@ h3.itemTitle {
 
 @media screen and (min-width: 700px) {
   .collectionItem[data-digital] {
-    max-height: 370px!important;
+    max-height: 410px!important;
   }
 
   .collectionItem[data-physical] .fotorama__stage {
-    max-height: 260px!important;
+    max-height: 330px!important;
   }
   .collectionItem[data-merch] .fotorama__stage {
-    max-height: 200px!important;
+    max-height: 310px!important;
   }
 
   .buyContainer {
