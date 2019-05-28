@@ -1,0 +1,16 @@
+---
+layout: detail
+title:  "LASTJAPAN002"
+longTitle: "E3 Nights"
+dataid: "LASTJAPAN002"
+link:
+category: "works"
+soundcloudLink:
+itunesLink:
+spotifyLink:
+vinylLink:
+soundcloudembed:
+type: "production"
+---
+
+1. E3 Nights

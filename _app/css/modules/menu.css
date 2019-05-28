@@ -1,11 +1,22 @@
 .menu a {
   color: #000;
-  opacity: .7;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 100;
 }
 
 .menu a.active {
-  opacity: 1;
+  opacity: .2;
+  transform: scale(1, -1);
+  display: block;
+}
+
+.menu {
+  font-size: 12px;
+}
+
+@media (--breakpoint-not-small) {
+  .menu {
+    font-size: 14px;
+  }
 }

@@ -1,4 +1,9 @@
 _site
 .sass-cache
 .jekyll-metadata
+<<<<<<< HEAD
 /node_modules/
+=======
+Gemfile.lock
+/node_modules
+>>>>>>> fb48d974ff42946c127c22f11b71e922c5383b53

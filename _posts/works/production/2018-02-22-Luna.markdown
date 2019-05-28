@@ -1,0 +1,23 @@
+---
+layout: detail
+title:  "COY020"
+longTitle: "Last Japan - Luna"
+dataid: "COY020"
+link:
+category: "works"
+soundcloudLink:
+itunesLink:
+spotifyLink:
+vinylLink:
+soundcloudembed:
+type: "production"
+---
+
+1. Tether
+2. Wrong One feat. Prynce Mini
+3. U Wot mVIII
+4. Codes
+5. Squad
+6. B4 All That
+7. Cold Skies
+8. (Vinyl Exclusive)

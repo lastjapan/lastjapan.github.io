@@ -1,0 +1,18 @@
+---
+layout: detail
+title:  "COY013"
+longTitle: "Ascend"
+dataid: "ascend"
+link:
+category: "works"
+soundcloudLink:
+itunesLink:
+spotifyLink:
+vinylLink:
+soundcloudembed:
+type: "production"
+---
+
+1. Ascend feat. AJ Tracey
+2. Ascend (Silk Road Assassins Remix)
+3. Ascend (Forever Remix)

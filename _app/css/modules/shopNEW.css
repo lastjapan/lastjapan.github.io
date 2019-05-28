@@ -1,0 +1,48 @@
+.buyContainer {
+  vertical-align: top;
+}
+
+.buyContainer a {
+  padding: 10px;
+  background: #111;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1px;
+}
+
+.itemPrice {
+  vertical-align: top;
+  font-size: 14px;
+  opacity: .5;
+}
+
+.itemTitle {
+  font-size: 13px;
+  width: 100%;
+  line-height: 1.4;
+}
+
+.collectionItem {
+  display: table-cell!important;
+}
+
+.collectionItem[data-physical] .fotorama__stage img.fotorama__img {
+  max-width: 100%!important;
+  height: auto!important;
+  left: 0!important;
+}
+
+.collectionItem[data-physical] div.fotorama__stage {
+  height: 220px!important ;
+}
+
+.itemDescription {
+  font-size: 12px;
+  line-height: 1.3;
+  overflow-y: scroll;
+}
+
+.fotorama__img {
+  max-width: 100%;
+}

@@ -1,0 +1,16 @@
+---
+layout: detail
+title:  "4AD"
+longTitle: "Zomby - With Love"
+dataid: "4AD"
+link:
+category: "works"
+soundcloudLink:
+itunesLink:
+spotifyLink:
+vinylLink:
+soundcloudembed:
+type: "production"
+---
+
+1. Pyrex Nights feat. Last Japan

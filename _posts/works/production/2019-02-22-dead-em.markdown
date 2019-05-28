@@ -1,0 +1,16 @@
+---
+layout: detail
+title:  "FLOOR SIX"
+longTitle: "Dead Em"
+dataid: "FLOOR-SIX"
+link:
+category: "works"
+soundcloudLink:
+itunesLink:
+spotifyLink:
+vinylLink:
+soundcloudembed:
+type: "production"
+---
+
+1.  Dead Em feat. Killa P
