@@ -6,6 +6,30 @@ title: 'Projects'
 {% include contentHeader.html title=page.title %}
 <div class="dib w-80-m w-80-ns fl mr4-ns">
 
+ var canvas = document.querySelector("#myCanvas");
+var context = canvas.getContext("2d");
+ 
+var xPos = -100;
+var yPos = 170;
+ 
+function update() {
+  context.clearRect(0, 0, canvas.width, canvas.height);
+ 
+  context.beginPath();
+  context.arc(xPos, yPos, 50, 0, 2 * Math.PI, true);
+  context.fillStyle = "#FF6A6A";
+  context.fill();
+ 
+  // update position
+  if (xPos > 600) {
+    xPos = -100;
+  }
+  xPos += 3;
+ 
+  requestAnimationFrame(update);
+}
+update();
+
   
 <p>
 <a href="https://www.youtube.com/watch?v=FNKunmqwr80" target="_blank">Jam Baxter 'Touching Scenes' Album</a><br/>
