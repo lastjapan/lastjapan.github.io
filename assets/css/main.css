@@ -6272,13 +6272,14 @@ h3.itemTitle {
 
 
 .buyContainer {
-  z-index: 5;
+  z-index: 6;
   background: black;
   color: white;
   padding: 10px 10px;
   line-height: 1.3;
   font-size: 10px;
   text-align: center;
+  position: relative;
 }
 
 
@@ -6584,20 +6585,4 @@ body.luna {
 
 .works__displayarea ol {
   padding-left: 10px;
-}
-
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
 }
