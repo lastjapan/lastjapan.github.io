@@ -6102,21 +6102,6 @@ input[type=number]::-webkit-outer-spin-button {
   line-height: 23px;
 }
 
-.btn {
-
-.btn-arrow {		
-  opacity: .6;		
-  cursor: pointer;		
-}		
-.btn-arrow:hover {		
-  opacity: 1;		
-}		
-.bg-black .btn-arrow-inactive {		
-  opacity: .2;		
-}		
-.btn-disabled {		
-  opacity: .6;		
-}
 
 .menu a {
   color: #000;
@@ -6601,33 +6586,3 @@ body.luna {
 .works__displayarea ol {
   padding-left: 10px;
 }
-
-.cr2019 {		
-  font-family: 'InputMonoCompressed', monospace;		
-  letter-spacing: -0.1em;		
-  -webkit-font-smoothing: antialiased;		
-  text-transform: uppercase;		
-}		
-.cr2019.body__outer--main {		
-  background-repeat: no-repeat;		
-  background-size: cover;		
-  background-position: center;		
-  background-attachment: fixed;		
-}		
-.cr2019 .btn-arrow {		
-  opacity: 1;		
-  mix-blend-mode: difference;		
-  transform: scale(.9);		
-  transition: transform .25s;		
-}		
-.cr2019 .btn-arrow-inactive {		
-  opacity: .5;		
-}		
-.cr2019 .btn-arrow.btn-arrow-inactive:hover {		
-  cursor: default;		
-  transform: scale(.9);		
-}		
-.cr2019 .btn-arrow:hover {		
-  transform: scale(1);		
-  transition: transform .25s;		
-}		
