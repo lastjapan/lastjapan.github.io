@@ -17,20 +17,24 @@
   {% assign height = '1000' %}
 {% endif %}
 
+{% if include.merch == "true" %}
+
+{% endif %}
+
 <div id='item-{{include.id}}' class="collectionItem w-100 w-50-m w-25-ns pt3 pr2 pl2 fl-ns" {% if include.digital == "true" %} data-digital
-{% endif %}>
+{% endif %} {% if include.merch == "true" %} data-merch {% endif %} {% if include.physical == "true"%} data-physical {% endif %}>
   <div class="w-100">
 
   </div>
 
-  <div class="recordContain w-100 relative">
+  <div class="w-100 relative">
     {% if include.record == "true" %}
       <div class="record recordWrap"></div>
       {% else  %}
       <div class="fotorama center no-repeat" style="background-size: 40px; background-image: url('/assets/images/loading2.gif');"
         data-auto="false"
-        data-width="{{width}}"
-        data-height="{{height}}"
+        data-width="1000"
+        data-height="1500"
         data-minwidth="100%"
         data-maxwidth="100%"
         data-minheight="100%"
@@ -53,18 +57,20 @@
       </a>
     {% endif %}
   </div>
-  <div class="infoArea pa3 pr0 pl0 w-100 bg-white black fl relative">
+  <div class="pa3 pr0 pl0 w-100 bg-white black fl relative">
     <div class="itemInfo">
-      <h3 class="itemTitle mt0 mb1 text ttu w-60-ns dib" ></h3>
-      <div class="buyContainer dib tr w-33-ns">
+      <h3 class="itemTitle  mt0 mb1 text ttu dib druk" ></h3>
+    </div>
+    <div class="buyInfo db w-100">
+      <div class="itemPrice dib fl o-60 w-50"></div>
+      <div class="buyContainer dib tr fr w-50-m w-33-s">
         <a id="{{ include.id }}" data-id="{{ include.id }}" class="buy-button db">Buy</a>
       </div>
     </div>
-    <div class="itemPrice o-60"></div>
     {% if include.record != "true"  %}
       <div class="o-60 oneSize">ONE SIZE  </div>
     {% endif %}
 
-    <div class="itemDescription mt2 mb2 smallcaps o-70" style="height: 80px;"></div>
+    <div class="itemDescription mt2 mb2 smallcaps o-70 w-100" style="height: 80px;"></div>
   </div>
 </div>
