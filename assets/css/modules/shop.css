@@ -305,4 +305,25 @@ h3.itemTitle {
     max-height: 400px!important;
     min-height: auto;
   }
+
+   .btn-arrow {
+    opacity: 1;
+    mix-blend-mode: difference;
+    transform: scale(.9);
+    transition: transform .25s;
+  }
+  
+  .btn-arrow-inactive {
+    opacity: .5;
+  }
+
+  .btn-arrow.btn-arrow-inactive:hover {
+    cursor: default;
+    transform: scale(.9);
+  }
+
+ .btn-arrow:hover {
+    transform: scale(1);
+    transition: transform .25s;
+  } 
 }
