@@ -305,6 +305,26 @@ h3.itemTitle {
     min-height: auto;
   }
 
+  .cr2019 .btn-arrow {
+  opacity: 1;
+  mix-blend-mode: difference;
+  transform: scale(.9);
+  transition: transform .25s;
+}
+
+.cr2019 .btn-arrow-inactive {
+  opacity: .5;
+}
+
+.cr2019 .btn-arrow.btn-arrow-inactive:hover {
+  cursor: default;
+  transform: scale(.9);
+}
+
+.cr2019 .btn-arrow:hover {
+  transform: scale(1);
+  transition: transform .25s;
+}  
   .collectionItem[data-merch] .fotorama__stage {
     max-height: 400px!important;
     min-height: auto;
