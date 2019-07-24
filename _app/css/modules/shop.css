@@ -310,6 +310,7 @@ h3.itemTitle {
   mix-blend-mode: difference;
   transform: scale(.9);
   transition: transform .25s;
+  top: 180px;
 }
 
 .cr2019 .btn-arrow-inactive {
