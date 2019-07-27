@@ -5711,7 +5711,7 @@ img { max-width: 100%; }
 body, html {
   font-family: 'DINPro';
   font-weight: 100;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 26px;
 }
 
@@ -6119,13 +6119,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 .menu {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 
 @media screen and (min-width: 40em) {
   .menu {
-    font-size: 12px;
+    font-size: 123x;
   }
 }
 
