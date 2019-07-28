@@ -6138,6 +6138,17 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+.cart .btn {
+  color: white;
+  border: 1px solid white;
+  display: block;
+  background: transparent;
+  -webkit-appearance: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
 .itemTitle {
   font-size: 12px;
   padding-bottom: 10px;
