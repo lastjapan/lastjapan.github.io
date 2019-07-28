@@ -80,7 +80,7 @@ module.exports = function () {
   ============================================================ */
   function generateSelectors(product) {
     var elements = product.options.map(function(option) {
-      return '<select name="' + option.name + '" class="genSel">' + option.values.map(function(value) {
+      return '<select name="' + option.name + '" class="genSel mt3 mb2">' + option.values.map(function(value) {
         return '<option value="' + value + '">' + value + '</option>';
       }) + '</select>';
     });

@@ -21,13 +21,13 @@
 
 {% endif %}
 
-<div id='item-{{include.id}}' class="collectionItem w-100 w-50-m w-25-ns pt3 pr2 pl2 fl-ns" {% if include.digital == "true" %} data-digital
+<div id='item-{{include.id}}' class="collectionItem w-100 w-50-m w-25-ns pt3 pr2 pl2 fl-ns mb5 pb5" {% if include.digital == "true" %} data-digital
 {% endif %} {% if include.merch == "true" %} data-merch {% endif %} {% if include.physical == "true"%} data-physical {% endif %}>
   <div class="w-100">
 
   </div>
 
-  <div class="w-100 relative">
+  <div class="w-100 mt5 relative">
     {% if include.record == "true" %}
       <div class="record recordWrap"></div>
       {% else  %}
@@ -63,8 +63,8 @@
     </div>
     <div class="buyInfo db w-100">
       <div class="itemPrice dib fl o-60 w-50"></div>
-      <div class="buyContainer dib tr fr w-50-m w-33-s">
-        <a id="{{ include.id }}" data-id="{{ include.id }}" class="buy-button db">BUY</a>
+      <div class="buyContainer dib tr fr w-50-m w-33-s buy-button" id="{{ include.id }}" data-id="{{ include.id }}">
+        BUY
       </div>
     </div>
     {% if include.record != "true"  %}
