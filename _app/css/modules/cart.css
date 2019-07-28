@@ -60,6 +60,11 @@
   color: darken(#fff, 5%);
 }
 
+.btn-black.btn-outline:hover {
+  background: #000;
+  color: #fff;
+}
+
 .cart-form {
   position: absolute;
   height: 100%;
