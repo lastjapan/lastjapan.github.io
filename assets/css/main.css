@@ -5819,6 +5819,13 @@ html {
 }
 
 
+@media screen  and  (max-width: 600px){
+  .video-container iframe {
+    width: auto;
+  } 
+}
+
+
 .cart {
   position: fixed;
   width: 100%;
@@ -6177,6 +6184,7 @@ img.fotorama__img {
 
 .genSel {
   border: 1px solid black;
+  
 }
 
 
