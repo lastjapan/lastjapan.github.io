@@ -54,8 +54,14 @@
   position: relative;
 }
 
+@media screen  and  (min-width: 600px){
+  .video-container iframe {
+    width: 100%;
+  } 
+}
+
 @media screen  and  (max-width: 600px){
   .video-container iframe {
-    width: auto;
+    max-width: 100%;
   } 
 }

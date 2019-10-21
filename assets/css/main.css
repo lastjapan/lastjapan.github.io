@@ -5819,9 +5819,16 @@ html {
 }
 
 
+@media screen  and  (min-width: 600px){
+  .video-container iframe {
+    width: 100%;
+  } 
+}
+
+
 @media screen  and  (max-width: 600px){
   .video-container iframe {
-    width: auto;
+    max-width: 100%;
   } 
 }
 
@@ -6621,6 +6628,17 @@ body.luna {
 
 
 .works-submenu li:first-child {
+}
+
+
+.menu .sublist {
+  padding-left: 40px;
+}
+
+
+.menu .sublist li {
+  font-size: .9em;
+
 }
 
 
