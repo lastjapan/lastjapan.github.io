@@ -1,1 +1,55 @@
+{% assign current = page.url | downcase | split: '/' %}
+{% include head/base.html %}
+<!-- <div class="covervid-wrapper dn db-ns">
+    <video class="covervid-video" id="vid" poster="/assets/images/bg.jpg" autoplay loop>
+      <source src="/assets/images/bg_vid.mp4" type='video/mp4'>
+    </video>
+</div> -->
+
+<div class="w-100 w-25-l">
+  <div class="h-100 pa4 fl">
+    <div class="h4 menu pa4-l pl3 absolute fixed left-0 bottom-0 top-0 z-5">
+      <div class=" dib w-33 w-100-l">
+        <ul class="list pa4 pa4-l pl0 pt0">
+          <li class="mb2">
+            <a class="{% if current[1] == 'home' %}active{% endif %} black caps" href="/">Index</a>
+          </li>
+          <li class="mb2">
+            <a class="{% if current[1] == 'profile' %}active{% endif %} black caps" href="/profile">Profile</a>
+          </li>
+          <li class="mb2">
+              <a class="{% if current[1] == 'last japan' %}active{% endif %} black caps" href="/lastjapan">Last Japan</a>
+            </li>
+          <li class="mb2">
+              <a class="{% if current[1] == 'scores' %}active{% endif %} black caps" href="/scores">Scores and Sound Design</a>
+               </li>
+          <li class="mb2">
+              <a class="{% if current[1] == 'circadian rhythms' %}active{% endif %} black caps" href="/circadianrhythms">Circadian Rhythms</a>
+            </li>
+          <li class="mb2">
+              <a class="{% if current[1] == 'photography' %}active{% endif %} black caps" href="/photography">Photography</a>
+            </li>
+          <li class="mb2">
+              <a class="{% if current[1] == 'fashion' %}active{% endif %} black caps" href="/fashion">Fashion</a>
+          <!-- </li>
+          <li class="mb2">
+            <a class="{%if current[1] == 'projects' %}active{% endif %} black caps" href="/projects">Projects</a>
+          </li>
+          <!-- </li>
+          <li class="mb2">
+            <a class="{% if current[1] == 'works' %}active{% endif %} white caps" href="/works">Works</a>
+          </li> -->
+          <li class="mb2">
+            <a class="{% if current[1] == 'shop' %}active{% endif %} white caps" href="/shop">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container w-100">
+  <section class="z-4 {% unless page.noContentArea %}content-active{% endunless %} pt5 content profile-content w-100 pa5-l pa4 z-1">
+    {{ content }}
+  </section>
+</div>
 
