@@ -1,0 +1,55 @@
+---
+layout: profile
+title: 'Scores and Sound Design'
+---
+
+{% include contentHeader.html title=page.title %}
+<div class="dib w-80-m w-80-ns fl mr4-ns">
+  <p>Last Japan a producer who has closely-aligned to the mutant, hybrid sounds emanating from both instrumental grime and wider strands of UK- centric bass music has certainly carved out his own niche within the landscape over the last three years. His sound is a positively cold spin on formative grime beats, laced with full-blooded melodies and softer, eerier textures.</p>
+
+  <p>Following a short burst of grime singles via Sony that saw Last Japan oversee commissioned work for Nokia and fashion brand, Kenzo, Last Japan’s self- released mixtape, ‘Ride With Us’ (2014), was the first to fully alert the wider scene to his conceptual, future-facing producer world, and take note.</p>
+
+  <p>Last Japan joined the ranks of emergent grime label, Coyote Records, from which he has since launched ‘Harca’ and 2016's highly anticipated track ‘Ascend’ – arguably his most identifiable track to date - his signature icy grime production supported effortlessly by MOBO award nominee, AJ Tracey. ‘LUNA’ a 7 track EP released in March 2018 runs parallel to the work released on Coyote Records and was arranged to evoke personal interpretations from the listener – “it's a winter-inspired body of work; a soundtrack to misty days and cold, crisp nights”.</p>
+
+  <p>Late in 2018 Last Japan followed LUNA with a 3 track collaboration with Finnish producer Inner – ‘Cold Ascent’ was released on Last Japan’s own label Ascend which saw both producers fuse their own tastes and influences from Drill, Grime and Jungle. </p>
+  
+  <p>Last Japan has since transitioned into the world of producing for other artists with a cuts on the 2018 album by Jam Baxter ‘Touching Scenes’ and 2019 EP ‘Off Piste’ as well as a number of other collaborations in the works.</p>
+  <br>
+  <p>Contact: <a href="mailto:hello@lastjapan.com">hello@lastjapan.com</a></p>
+  <p>Portfolio available on request.</p>
+   <p><a href="https://open.spotify.com/playlist/3xdy3wlIcxrUGFYl1z73NE"><img class="w4 pt5" src="/assets/images/ascend_logo.png"></p>
+</div>
+
+<ul class="dib w-30-m w-30-ns list ml0 pl0 fl">
+  <li><a href="https://open.spotify.com/artist/2KpGANYR8s65QVps1eIvFg?si=ulX8w1UATFqdvUJAtGuuDQ" target="_blank">Spotify</a></li>
+  <li><a href="https://music.apple.com/gb/artist/last-japan/314130004" target="_blank">Apple Music</a></li>
+  <li><a href="http://www.lastjapan.bandcamp.com" target="_blank">Bandcamp</a></li>
+  <li><a href="https://open.spotify.com/playlist/3xdy3wlIcxrUGFYl1z73NE" target="_blank">ASCEND. Playlist</a></li>
+  <br>
+  <li><a href="https://www.instagram.com/lastjapan" target="_blank">Instagram</a></li>
+  <li><a href="https://www.twitter.com/lastjapan" target="_blank">Twitter</a></li>
+  <br>
+  <li> <a href="https://www.circadian-rhythms.com"><img class="w2 pt3" src="/assets/images/cr_logo_mark_black copy.png"></a></li>
+</ul>
+
+
+
+  <!-- {% for item in site.posts %}
+  <li>
+    <span>{{ item.date | date: "%B %-d, %Y" }}</span>
+    <h1>
+      <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+    </h1>
+  </li>
+  {% endfor %} -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57605289-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-57605289-1');
+</script>
+
